@@ -65,7 +65,7 @@ export function MyBookings() {
     return (
         <div>
             <div className='row'>
-                <div className='col-md-6'>
+                <div className='col-md-9'>
                     {loading && (<Loader/>)}
                     {bookings && (bookings.map(booking=>{
 
